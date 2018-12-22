@@ -1,3 +1,4 @@
+import { HomePageModule } from "./../pages/home/home.module";
 import { LoginPageModule } from "./../pages/login/login.module";
 import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -13,6 +14,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   imports: [
     BrowserModule,
     IonicModule.forRoot(AppComponent),
+    HomePageModule,
     LoginPageModule
   ],
   bootstrap: [IonicApp],
